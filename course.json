@@ -1,0 +1,138 @@
+{
+  "version": "1",
+  "title": "SQL_online",
+  "author": "admin",
+  "description": "SQL语言在线免费教学",
+  "scenarios": [
+    {
+      "title": "SQL语言介绍",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "SQL语言介绍",
+          "text": "scenarios/welcome.md"
+        }
+      ]
+    },
+	{
+      "title": "Course1：Hello, World!",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course1：Hello, World!",
+          "text": "scenarios/Course1：Hello, World!.md"
+        }
+      ]
+    },
+	{
+      "title": "Course2：Selecting data - 选择数据",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course2：Selecting data - 选择数据",
+          "text": "scenarios/Course2：Selecting data.md"
+        }
+      ]
+    },
+	{
+      "title": "Course3：Creating tables - 创建表",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course3：Creating tables - 创建表",
+          "text": "scenarios/Course3：Creating tables.md"
+        }
+      ]
+    },
+	{
+      "title": "Course4：Inserting rows - 插入行",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course4：Inserting rows - 插入行",
+          "text": "scenarios/Course4：Inserting rows.md"
+        }
+      ]
+    },
+	{
+      "title": "Course5：Updating rows - 更新行",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course5：Updating rows - 更新行",
+          "text": "scenarios/Course5：Updating rows.md"
+        }
+      ]
+    },
+	{
+      "title": "Course6：Deleting rows - 删除行",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course6：Deleting rows - 删除行",
+          "text": "scenarios/Course6：Deleting rows.md"
+        }
+      ]
+    },
+	{
+      "title": "Course7：Joining tables - 添加表格",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course7：Joining tables - 添加表格",
+          "text": "scenarios/Course7：Joining tables.md"
+        }
+      ]
+    },
+	{
+      "title": "Course8：Group by - Group by语句",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course8：Group by - Group by语句",
+          "text": "scenarios/Course8：Group by.md"
+        }
+      ]
+    },
+	{
+      "title": "Course9：Aggregate functions - 聚合函数",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course9：Aggregate functions - 聚合函数",
+          "text": "scenarios/Course9：Aggregate functions.md"
+        }
+      ]
+    },
+	{
+      "title": "Course10：The HAVING statement - HAVING语句",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course10：The HAVING statement - HAVING语句",
+          "text": "scenarios/Course10：The HAVING statement.md"
+        }
+      ]
+    },
+	{
+      "title": "Course11：Distinct queries – Distinct查询",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course11：Distinct queries – Distinct查询",
+          "text": "scenarios/Course11：Distinct queries.md"
+        }
+      ]
+    },
+	{
+      "title": "Course12：Order by - Order by语句",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Course12：Order by - Order by语句",
+          "text": "scenarios/Course12：Order by.md"
+        }
+      ]
+    }
+  ]
+}
