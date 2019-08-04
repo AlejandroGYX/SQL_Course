@@ -18,7 +18,7 @@ SQL是一种非常古老的声明性编程语言，它定义了从查询应该�
 
 语句执行结果：
 
-![SQL](./photos/Course1/C1-1.PNG)
+>**helloworld**
 
 在我们执行完语句之后，表创建完毕。我们使用.tables SQLite语句来显示表的列表。
 
