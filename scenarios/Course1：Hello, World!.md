@@ -36,7 +36,7 @@ SELECT COUNT(*) FROM helloworld;
 ```
 语句执行结果：
 
-![SQL](./photos/Course1/C1-2.PNG)
+>**2**
 
 ## Selecting from a table - 从表中选择
 >使用SELECT语句从一个或多个表中选择数据。
@@ -51,7 +51,7 @@ SELECT * FROM helloworld WHERE phrase = "Hello, World!";
 这个语句将从表helloworld中获取所有列（因此为*），并仅将结果过滤到短语列等于Hello，World！的行。
 
 ## Exercise - 练习
-选择数据库中其短语列等于“Goodbye，World！”的所有行。
+选择数据库中其短语列等于“Hello, World!”的所有行。
 
 参考代码：
 ```
@@ -64,4 +64,4 @@ SELECT * FROM helloworld WHERE phrase = "Goodbye, World!";
 
 语句执行结果：
 
-![SQL](./photos/Course1/C1-3.PNG)
+>**Hello, World!**
