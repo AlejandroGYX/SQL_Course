@@ -29,7 +29,9 @@ SELECT * FROM customers;
 
 语句执行结果：
 
-![SQL](./photos/Course4/C4-1.PNG)
+```
+John|Doe|23
+```
 
 现在让我们看看如果我们省略列的列表会发生什么：
 ```
@@ -40,7 +42,9 @@ SELECT * FROM customers;
 
 语句执行结果：
 
-![SQL](./photos/Course4/C4-1.PNG)
+```
+John|Doe|23
+```
 
 让我们删除年龄 - 这将导致查询失败：
 
@@ -52,7 +56,9 @@ SELECT * FROM customers;
 
 语句执行结果：
 
-![SQL](./photos/Course4/C4-2.PNG)
+```
+Error: near line 2: table customers has 3 columns but 2 values were supplied
+```
 
 让我们添加更多的人：
 ```
@@ -66,7 +72,10 @@ SELECT * FROM customers;
 
 语句执行结果：
 
-![SQL](./photos/Course4/C4-3.PNG)
+```
+John|Doe|23
+Eric|Smith|26
+```
 
 ## Replacing and ignoring - 替换和忽略
 SQLite支持三种其他类型的语法来插入数据：INSERT OR REPLACE，REPLACE INTO和INSERT OR IGNORE。
@@ -83,4 +92,10 @@ INSERT或IGNORE类似于INSERT OR REPLACE，但实际上完全忽略了数据库
 CREATE TABLE customers (first_name NOT NULL, last_name NOT NULL, age);
 
 SELECT * FROM customers;
+```
+
+期望的执行结果：
+```
+John|Doe|23
+Eric|Smith|26
 ```
