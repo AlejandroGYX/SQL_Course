@@ -36,8 +36,12 @@ GROUP BY orders.customer_id;
 ```
 
 语句执行结果：
-
-![SQL](./photos/Course8/C8-1.PNG)
+```
+first_name  last_name   total_orders
+----------  ----------  ------------
+John        Doe         2           
+Eric        Smith       1           
+```
 
 ## Exercise - 练习
 编写一个查询，显示数据库中每个人的名字和可用订单的数量。
@@ -69,4 +73,10 @@ INSERT INTO orders (customer_id, product_name) VALUES
     (last_insert_rowid(), "Doritos");
 
 -- enter your code here
+```
+
+期望的执行结果：
+```
+John|2
+Eric|1
 ```
