@@ -32,9 +32,9 @@ INSERT INTO students VALUES ("Chris", 79);
 
 期望的执行结果：
 
->**Eric**
+>**Eric
 
->**Andrew**
+Andrew
 
->**Jessica**
+Jessica**
 
