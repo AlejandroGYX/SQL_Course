@@ -42,3 +42,9 @@ CREATE TABLE students (
 INSERT INTO students (first_name, last_name, age) VALUES ("John", "Doe", 23);
 SELECT * FROM students;
 ```
+
+期望的执行结果：
+```
+John|Doe|23
+```
+
