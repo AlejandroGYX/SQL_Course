@@ -27,8 +27,11 @@ INSERT INTO students VALUES ("John", 78);
 INSERT INTO students VALUES ("Andrew", 91);
 INSERT INTO students VALUES ("Jessica", 95);
 INSERT INTO students VALUES ("Chris", 79);
+
 ```
 
-语句执行结果：
+期望的执行结果：
 
-![SQL](./photos/Course2/C2-1.PNG)
+>**Eric
+Andrew
+Jessica**
