@@ -24,3 +24,10 @@ SELECT * FROM customers;
 
 SELECT * FROM customers;
 ```
+
+期望的执行结果：
+```
+John|Doe|23
+Eric|Smith|26
+John|Doe|23
+```
