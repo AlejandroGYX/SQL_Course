@@ -17,8 +17,9 @@ SQL是一种非常古老的声明性编程语言，它定义了从查询应该�
 ```
 
 语句执行结果：
-
->**helloworld**
+```
+helloworld
+```
 
 在我们执行完语句之后，表创建完毕。我们使用.tables SQLite语句来显示表的列表。
 
@@ -35,8 +36,9 @@ INSERT INTO helloworld VALUES ("Goodbye, World!");
 SELECT COUNT(*) FROM helloworld;
 ```
 语句执行结果：
-
->**2**
+```
+2
+```
 
 ## Selecting from a table - 从表中选择
 >使用SELECT语句从一个或多个表中选择数据。
@@ -63,5 +65,7 @@ SELECT * FROM helloworld WHERE phrase = "Goodbye, World!";
 ```
 
 语句执行结果：
+```
+Hello, World!
+```
 
->**Hello, World!**
