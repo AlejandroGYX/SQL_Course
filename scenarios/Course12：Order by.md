@@ -17,7 +17,14 @@ ORDER by name;
 
 语句执行结果：
 
-![SQL](./photos/Course12/C12-1.PNG)
+```
+Andrew
+Barney
+Carol
+Eric
+John
+Steve
+```
 
 现在，让我们得到一个分数（成绩）列表，并将所有分数从高到低排序。注意，顺序现在是相反的，这意味着顺序是递减的。使用DEST命令可以记录降序排列。
 ```
@@ -35,7 +42,17 @@ ORDER by grade DESC;
 
 语句执行结果：
 
-![SQL](./photos/Course12/C12-2.PNG)
+```
+Carol|Arts|99
+John|CompSci|97
+Barney|Physics|97
+John|History|93
+Steve|Physics|91
+Eric|CompSci|88
+Eric|History|87
+John|Physics|84
+Andrew|History|82
+```
 
 ## Exercise - 练习
 从成绩列表中获取按字母顺序排列的科目列表。
@@ -49,4 +66,12 @@ INSERT INTO grades (name, subject, grade) VALUES
     ("Steve", "Physics", 91), ("John", "Physics", 84), ("Barney", "Physics", 97);
 
 -- enter code here
+```
+
+期望的执行结果：
+```
+Arts
+CompSci
+History
+Physics
 ```
