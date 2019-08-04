@@ -36,7 +36,12 @@ JOIN customers ON orders.customer_id = customers.id;
 
 语句执行结果：
 
-![SQL](./photos/Course7/C7-1.PNG)
+```
+product_name  first_name  last_name 
+------------  ----------  ----------
+Coke          John        Doe       
+Sprite        John        Doe       
+```
 
 ## Exercise - 练习
 编写SELECT查询，选择产品名称和购买产品的客户的名字，仅当客户名称为John时显示查询结果。
@@ -69,4 +74,10 @@ INSERT INTO orders (customer_id, product_name) VALUES
     (last_insert_rowid(), "Water");
 
 -- enter code here
+```
+
+期望的执行结果：
+```
+Coke|John
+Sprite|John
 ```
