@@ -26,7 +26,12 @@ SELECT * FROM customers;
 
 语句执行结果：
 
-![SQL](./photos/Course5/C5-1.PNG)
+```
+John|Doe|23
+Eric|Smith|26
+John|Heart|23
+Eric|Smith|26
+```
 
 ## Exercise - 练习
 添加更新语句，将两个SELECT语句之间的Eric年龄更新为27。
@@ -42,4 +47,12 @@ SELECT * FROM customers;
 -- enter code here
 
 SELECT * FROM customers;
+```
+
+期望的执行结果：
+```
+John|Doe|23
+Eric|Smith|26
+John|Doe|23
+Eric|Smith|27
 ```
