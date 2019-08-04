@@ -17,7 +17,10 @@ GROUP BY class;
 
 语句执行结果：
 
-![SQL](./photos/Course10/C10-1.PNG)
+```
+1|94.3333333333333
+2|93.0
+```
 
 HAVING语句将使用聚合的结果过滤生成的分组数据集：
 ```
@@ -35,7 +38,9 @@ HAVING AVG(grade) > 90;
 
 语句执行结果：
 
-![SQL](./photos/Course10/C10-2.PNG)
+```
+1|91.25
+```
 
 注意，在这个特定的查询中，WHERE-filtered查询并没有改变聚集的类的数量(因为filter在每个类中至少保留了一个student)，但是HAVING-filtered查询删除了一个没有通过平均分的类。
 
@@ -55,4 +60,10 @@ INSERT INTO grades (name, class, grade) VALUES
 
 -- write your code here
 
+```
+
+期望的执行结果：
+```
+2|99
+3|97
 ```
