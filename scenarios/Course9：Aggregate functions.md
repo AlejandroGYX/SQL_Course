@@ -19,7 +19,15 @@ SELECT "names", GROUP_CONCAT(name) FROM grades;
 
 语句执行结果：
 
-![SQL](./photos/Course9/C9-1.PNG)
+```
+total students|5
+total grades|4
+sum of grades|365
+grade average|91.25
+lowest grade|82
+highest grade|98
+names|John,Eric,Jessica,Mike,Jeff
+```
 
 我们可以使用诸如SUM，COUNT，AVG，MIN，MAX等数学函数来完成对数字的聚合。
 
@@ -61,7 +69,12 @@ GROUP BY class;
 
 语句执行结果：
 
-![SQL](./photos/Course9/C9-2.PNG)
+```
+class       GROUP_CONCAT(name)           AVG(grade)
+----------  ---------------------------  ----------
+1           John,Eric,Jessica,Mike,Jeff  91.25     
+2           Ben,Andrew,Jason,Carol,Fred  88.0      
+```
 
 ## Exercise - 练习
 找出每门课的最高分.
@@ -74,4 +87,10 @@ INSERT INTO grades (name, class, grade) VALUES
     ("Ben", 2, 93), ("Andrew", 2, 82), ("Jason", 2, 87), ("Carol", 2, 99), ("Fred", 2, 79);
 
 -- enter code here
+```
+
+期望的执行结果：
+```
+1|98
+2|99
 ```
