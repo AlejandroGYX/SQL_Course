@@ -21,7 +21,16 @@ SELECT DISTINCT name FROM grades;
 
 语句执行结果：
 
-![SQL](./photos/Course11/C11-1.PNG)
+```
+all names|9
+unique names|6
+John
+Eric
+Carol
+Andrew
+Steve
+Barney
+```
 
 DISTINCT查询与GROUP BY子句非常相似，并且在子句中选择了所有列。 这有效地使所有相同的行组合在一起。 GROUP BY查询和DISTINCT查询之间的区别在于，您无法计算使用DISTINCT查询为每一行标识的相同事件的数量。 但是，它在大多数情况下比GROUP BY查询更有效。
 
@@ -39,4 +48,12 @@ INSERT INTO grades (name, subject, grade) VALUES
 
 -- enter code here
 
+```
+
+期望的执行结果：
+```
+CompSci
+Arts
+History
+Physics
 ```
